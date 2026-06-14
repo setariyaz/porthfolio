@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Somnath Quiz Portfolio</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+
+body{
+    background:#0b1020;
+    color:white;
+}
+
+
+/* HERO */
+
+.hero{
+
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:50px;
+
+background:
+radial-gradient(circle at top,#263b8f,#0b1020 60%);
+
+}
+
+
+.container{
+
+max-width:1100px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:50px;
+flex-wrap:wrap;
+
+}
+
+
+.hero-text{
+
+max-width:550px;
+
+}
+
+
+.hero-text h1{
+
+font-size:60px;
+background:linear-gradient(90deg,#00e5ff,#7c4dff);
+-webkit-background-clip:text;
+color:transparent;
+
+}
+
+
+.hero-text p{
+
+font-size:20px;
+margin-top:20px;
+color:#ccc;
+line-height:1.6;
+
+}
+
+
+
+.btn{
+
+display:inline-block;
+margin-top:30px;
+padding:14px 35px;
+border-radius:40px;
+
+background:linear-gradient(90deg,#00e5ff,#7c4dff);
+
+color:white;
+text-decoration:none;
+font-weight:bold;
+
+}
+
+
+
+.app-card{
+
+background:#ffffff10;
+padding:25px;
+border-radius:30px;
+
+backdrop-filter:blur(10px);
+
+box-shadow:0 20px 50px #000;
+
+}
+
+
+.app-card img{
+
+width:260px;
+border-radius:30px;
+
+}
+
+
+
+
+/* SECTIONS */
+
+
+section{
+
+padding:80px 10%;
+
+}
+
+
+.title{
+
+text-align:center;
+font-size:40px;
+margin-bottom:50px;
+
+}
+
+
+
+
+.grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+gap:25px;
+
+}
+
+
+
+.card{
+
+background:#ffffff12;
+
+padding:30px;
+
+border-radius:25px;
+
+border:1px solid #ffffff20;
+
+transition:.3s;
+
+}
+
+
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+
+
+
+.card h3{
+
+color:#00e5ff;
+margin-bottom:15px;
+
+}
+
+
+
+
+/* screenshots */
+
+
+.screens{
+
+display:flex;
+gap:25px;
+justify-content:center;
+flex-wrap:wrap;
+
+}
+
+
+
+.screens img{
+
+width:220px;
+
+border-radius:25px;
+
+box-shadow:0 20px 40px #000;
+
+transition:.3s;
+
+}
+
+
+
+.screens img:hover{
+
+transform:scale(1.05);
+
+}
+
+
+
+/* CONTACT */
+
+
+.contact{
+
+text-align:center;
+
+background:#ffffff08;
+
+}
+
+
+
+footer{
+
+padding:30px;
+text-align:center;
+background:#050816;
+color:#aaa;
+
+}
+
+
+
+
+@media(max-width:700px){
+
+.hero-text h1{
+font-size:40px;
+}
+
+}
+
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+<div class="hero">
+
+
+<div class="container">
+
+
+<div class="hero-text">
+
+
+<h1>Somnath Quiz</h1>
+
+
+<p>
+
+A modern Android Quiz Application
+designed for learning, knowledge
+and entertainment.
+
+</p>
+
+
+<a class="btn" href="#">
+View Play Store
+</a>
+
+
+</div>
+
+
+
+
+<div class="app-card">
+
+
+<img src="images/app-icon.png">
+
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<section>
+
+
+<h2 class="title">
+About Project
+</h2>
+
+
+<div class="card">
+
+
+<p>
+
+Somnath Quiz provides users an interactive
+quiz experience with clean UI, questions,
+score system and learning features.
+
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section>
+
+
+<h2 class="title">
+Features
+</h2>
+
+
+<div class="grid">
+
+
+<div class="card">
+
+<h3>Quiz System</h3>
+<p>Multiple questions with answers.</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Score Tracking</h3>
+<p>User performance tracking.</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Modern UI</h3>
+<p>Clean and attractive design.</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Fast App</h3>
+<p>Smooth Android experience.</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section>
+
+
+<h2 class="title">
+App Screenshots
+</h2>
+
+
+<div class="screens">
+
+
+<img src="images/home.png">
+
+<img src="images/quiz.png">
+
+<img src="images/result.png">
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section>
+
+
+<h2 class="title">
+Tech Stack
+</h2>
+
+
+<div class="grid">
+
+
+<div class="card">
+<h3>Android</h3>
+<p>Native Application</p>
+</div>
+
+
+<div class="card">
+<h3>UI Design</h3>
+<p>XML Layout</p>
+</div>
+
+
+<div class="card">
+<h3>Database</h3>
+<p>Firebase / Local Storage</p>
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<section class="contact">
+
+
+<h2>
+Developer
+</h2>
+
+
+<p>
+
+Your Name | Android Developer
+
+</p>
+
+
+</section>
+
+
+
+
+
+<footer>
+
+© 2026 Somnath Quiz Portfolio
+
+</footer>
+
+
+</body>
+
+</html>
